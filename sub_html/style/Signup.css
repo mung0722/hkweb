@@ -12,6 +12,9 @@
     width: 40px;
     margin-top: 10px;
 }
+#wrap header .logo{
+    margin-left: 10px;
+}
 #wrap header a{
     width: 200px;
     height: 60px;
