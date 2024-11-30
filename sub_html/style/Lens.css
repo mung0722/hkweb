@@ -65,7 +65,7 @@
     position: absolute;
     background-color: #0048ad;
     min-width: 140px;
-    z-index: 1;
+    z-index: 9;
 }
 #wrap header #nav li .dropdown-content a{
     width: 170px;
@@ -132,7 +132,7 @@
     opacity: 0;
     visibility: hidden;
 }
-#wrap h1{
-    margin-top: 30px;
-    margin-left: 400px;
+#wrap .t{
+    width: 1300px;
+    margin: 0 auto;
 }
