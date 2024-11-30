@@ -6,19 +6,20 @@
 /* header */
 #wrap header{
     width: 100%;
-    height: 50px;
-    background-color: beige;
+    height: 70px;
+    background-color: #01357e;
     /* margin-top: 20px; */
     position: relative;
     padding-top: 5px;
 }
 #wrap header img{
     width: 40px;
-    margin-top: 2px;
+    margin-top: 10px;
 }
 #wrap header input,
 #wrap header .login{
     position: absolute;
+    margin-top: 10px;
 }
 #wrap header input{
     left: 37%;
@@ -27,11 +28,23 @@
     border: 1px solid black;
     border-radius: 15px;
 }
-#wrap header .logo{
-    margin-top: -2px;
+#wrap header a{
+    width: 250px;
+    height: 50px;
+    /* margin-top: -2px; */
+    text-decoration: none;
+    color: white;
+    /* text-align: center; */
+    letter-spacing: 10px;
+    margin-left: 20px;
 }
 #wrap header .login{
+    bottom: 15px;
     right: 180px;
+}
+#wrap header .category{
+    margin-top: 10px;
+    padding-bottom: 14px;
 }
 #wrap header #nav{
     float: right;
@@ -70,10 +83,12 @@
 
 /* Banner */
 .slider-container {
-    width: 100%;
-    height: 100%;
+    width: 840px;
+    height: 450px;
     overflow: hidden;
     position: relative;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
 .slider-wrapper {
@@ -82,7 +97,6 @@
     height: 100%;
     transition: transform 1s ease-in-out;
 }
-
 .slide {
     width: 100%;
     height: 100%;
@@ -114,8 +128,6 @@
     position: relative;
     margin-top: 30px;
     margin: 0 auto;
-    margin-top: 50px;
-    /* background-color: #333; */
 }
 #wrap #content ul{
     list-style-type: none;
